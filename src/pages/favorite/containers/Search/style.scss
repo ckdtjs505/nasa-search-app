@@ -1,0 +1,33 @@
+.thumnails{
+	max-width : 68rem;
+	margin:0 auto;
+}
+
+.thumnails_content {
+	display : flex;
+	text-align:center;
+	margin-top: 2rem;
+	margin-right: 1rem;
+	margin-left: 1rem;
+	margin-bottom: 2rem;
+}
+
+.img {
+	flex-grow : 1;
+	width : 98%; //19 rem
+	margin-left : 0.25rem;
+	margin-right : 0.25rem;
+	margin-bottom : 0.5rem;
+	background : black;
+}
+
+.imglist{
+	 //display : block;
+}
+
+
+@media screen and (max-width: 500px) {
+    .thumnails_content {
+		display : block;
+	}
+}

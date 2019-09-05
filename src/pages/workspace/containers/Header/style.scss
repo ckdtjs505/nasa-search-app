@@ -1,0 +1,23 @@
+.Header {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	height: 1.425rem;
+	padding-left: 1.25rem;
+	padding-right: 1.25rem;
+	background-color: black;
+	:global(body) & &__dropdown {
+		color: #fff;
+		cursor: pointer;
+	}
+	:hover {
+		color : gray;
+	}
+	
+}
+
+.Dropdown {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}

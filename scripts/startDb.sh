@@ -1,0 +1,1 @@
+service mongod start && redis-server
